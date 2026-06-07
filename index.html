@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajasthan Tour Guide | Land of Royalty</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts for Regal look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        .font-royal { font-family: 'Cinzel', serif; }
+        .font-sans-custom { font-family: 'Outfit', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#faf6f0] text-slate-800 font-sans-custom">
+
+    <!-- Hero Section -->
+    <header class="relative bg-[url('https://images.unsplash.com/photo-1477584322811-37013897ca4d?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center h-[70vh] flex items-center justify-center text-center px-4">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-10 max-w-3xl">
+            <h1 class="font-royal text-4xl md:text-6xl text-amber-400 font-bold mb-4 drop-shadow-md">Padharo Mhare Desh</h1>
+            <p class="text-xl md:text-2xl text-white font-light tracking-wide mb-8">Experience the Grandeur, Royalty, and Vibrant Colors of Rajasthan</p>
+            <a href="#planner" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-semibold px-8 py-3 rounded-full transition duration-300 transform hover:scale-105 shadow-lg">Plan Your Tour</a>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 bg-white/95 backdrop-blur shadow-md z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-wrap justify-between items-center">
+            <span class="font-royal text-xl font-bold tracking-wider text-amber-700">RAJASTHAN TOUR</span>
+            <div class="space-x-1 md:space-x-6 text-sm md:text-base font-medium text-slate-600 mt-2 sm:mt-0">
+                <a href="#history" class="hover:text-amber-600 transition">History</a>
+                <a href="#destinations" class="hover:text-amber-600 transition">Destinations</a>
+                <a href="#food" class="hover:text-amber-600 transition">Gastronomy</a>
+                <a href="#planner" class="hover:text-amber-600 transition">Trip Planner</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="max-w-7xl mx-auto px-4 py-12 space-y-24">
+
+        <!-- History & Royalty Section -->
+        <section id="history" class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-amber-600 font-semibold uppercase tracking-widest text-sm block mb-2">The Golden Era</span>
+                <h2 class="font-royal text-3xl font-bold text-slate-900 mb-6">A Legacy of Royals & Valour</h2>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                    Rajasthan's history is woven with legendary tales of Rajput bravery, sprawling medieval fortifications, and opulent lifestyles. For centuries, the landscape was governed by powerful clans who erected towering defensive architectures that double as royal sanctuaries.
+                </p>
+                <p class="text-slate-600 leading-relaxed">
+                    Even today, the modern heirs of these royal families reside within private palace wings, maintaining living traditions that give the state its timeless grandeur. From the sacred acoustics of ancient temples like the Dilwara Jain structures to the strategic ramparts of Chittorgarh, history here breathing.
+                </p>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <img src="https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=400&q=80" alt="Palace details" class="rounded-lg shadow-md w-full h-48 object-cover transform -translate-y-4">
+                <img src="https://images.unsplash.com/photo-1598890777032-bde835ba27c2?auto=format&fit=crop&w=400&q=80" alt="Amber Fort" class="rounded-lg shadow-md w-full h-56 object-cover">
+            </div>
+        </section>
+
+        <!-- Destination Cards Grid Section -->
+        <section id="destinations">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-amber-600 font-semibold uppercase tracking-widest text-sm block mb-2">Iconic Cities</span>
+                <h2 class="font-royal text-3xl font-bold text-slate-900">Explore Key Destinations</h2>
+                <p class="text-slate-600 mt-2">Every city in Rajasthan holds a distinct architectural color palette and deep historic soul.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1: Jaipur -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 border border-amber-100">
+                    <img src="https://images.unsplash.com/photo-1477584322811-37013897ca4d?auto=format&fit=crop&w=500&q=80" alt="Jaipur Hawa Mahal" class="h-56 w-full object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="font-royal font-bold text-xl text-slate-900">Jaipur</h3>
+                            <span class="px-2 py-1 bg-rose-50 text-rose-700 text-xs font-semibold rounded">The Pink City</span>
+                        </div>
+                        <p class="text-slate-600 text-sm mb-4">Home to stunning terracotta facades like Hawa Mahal, Amer Fort, and bustling bazaars loaded with precious gemstones and block prints.</p>
+                        <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Top Vibe: Vibrant & Bustling</div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Jodhpur -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 border border-amber-100">
+                    <img src="https://images.unsplash.com/photo-1562141970-13f6406e23ca?auto=format&fit=crop&w=500&q=80" alt="Mehrangarh Jodhpur" class="h-56 w-full object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="font-royal font-bold text-xl text-slate-900">Jodhpur</h3>
+                            <span class="px-2 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded">The Blue City</span>
+                        </div>
+                        <p class="text-slate-600 text-sm mb-4">Dominated by the massive cliffside Mehrangarh Fort, featuring sea-blue painted residential districts and craft spice markets.</p>
+                        <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Top Vibe: Historic & Dramatic</div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Udaipur -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 border border-amber-100">
+                    <img src="https://images.unsplash.com/photo-1615554611593-9c87d4669894?auto=format&fit=crop&w=500&q=80" alt="Udaipur Lake" class="h-56 w-full object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="font-royal font-bold text-xl text-slate-900">Udaipur</h3>
+                            <span class="px-2 py-1 bg-teal-50 text-teal-700 text-xs font-semibold rounded">The City of Lakes</span>
+                        </div>
+                        <p class="text-slate-600 text-sm mb-4">Adorned with shimmering serene lakes and gleaming white marble palaces rising directly from water bodies like Lake Pichola.</p>
+                        <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Top Vibe: Serene & Romantic</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culinary Section -->
+        <section id="food" class="bg-amber-900/5 rounded-2xl p-8 md:p-12 border border-amber-900/10 grid md:grid-cols-2 gap-12 items-center">
+            <div class="order-2 md:order-1">
+                <img src="https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&w=600&q=80" alt="Indian Traditional Food" class="rounded-xl shadow-lg w-full h-[350px] object-cover">
+            </div>
+            <div class="order-1 md:order-2">
+                <span class="text-amber-600 font-semibold uppercase tracking-widest text-sm block mb-2">Gastronomy</span>
+                <h2 class="font-royal text-3xl font-bold text-slate-900 mb-6">A Taste of Royalty</h2>
+                <p class="text-slate-600 leading-relaxed mb-6">
+                    Because of the hyper-arid desert climate and medieval military expeditions, traditional Rajasthani food evolved uniquely. Ingredients that could preserve for multiple days without modern cooling took priority.
+                </p>
+                <div class="space-y-4">
+                    <div class="flex gap-4">
+                        <span class="font-bold text-amber-700 text-lg">01.</span>
+                        <div>
+                            <h4 class="font-semibold text-slate-900">Dal Baati Churma</h4>
+                            <p class="text-slate-600 text-sm">Hard wheat rolls cooked over open coals, crushed and drowned in pure ghee, balanced with savory yellow lentils.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <span class="font-bold text-amber-700 text-lg">02.</span>
+                        <div>
+                            <h4 class="font-semibold text-slate-900">Laal Maas</h4>
+                            <p class="text-slate-600 text-sm">A fiery, smoke-infused mutton curry traditional to royal hunting parties, loaded with local dry Mathania chilies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Budget & Trip Planner Widget -->
+        <section id="planner" class="max-w-3xl mx-auto bg-white rounded-2xl p-8 shadow-md border border-slate-100">
+            <div class="text-center mb-8">
+                <span class="text-amber-600 font-semibold uppercase tracking-widest text-sm block mb-2">Plan Your Tour</span>
+                <h2 class="font-royal text-2xl font-bold text-slate-900">Interactive Cost & Route Estimator</h2>
+                <p class="text-sm text-slate-500 mt-1">Best Travel Season: October to March (Avoid scorching Summers 45°C+)</p>
+            </div>
+
+            <!-- Form Layout -->
+            <div class="space-y-6">
+                <div>
+                    <label class="block text-sm font-semibold text-slate-700 mb-2">Choose Travel Tier Style</label>
+                    <select id="travelStyle" class="w-full border border-slate-200 rounded-lg p-3 bg-slate-50 focus:outline-none focus:border-amber-500">
+                        <option value="backpacker">Backpacker Standard (Budget Hostels & Trains) - ₹2,500/day</option>
+                        <option value="midrange" selected>Mid-Range Explorer (Heritage Hotels & Cab) - ₹6,000/day</option>
+                        <option value="luxury">Royal Luxury (Palaces & Fine Dining) - ₹25,000/day</option>
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Number of Days</label>
+                        <input type="number" id="tripDays" min="3" max="15" value="7" class="w-full border border-slate-200 rounded-lg p-3 bg-slate-50 focus:outline-none focus:border-amber-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">No. of Travelers</label>
+                        <input type="number" id="travelers" min="1" max="10" value="2" class="w-full border border-slate-200 rounded-lg p-3 bg-slate-50 focus:outline-none focus:border-amber-500">
+                    </div>
+                </div>
+
+                <button onclick="calculateBudget()" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-semibold py-3 rounded-lg transition duration-200">
+                    Calculate Total Estimated Expense
+                </button>
+
+                <!-- Calculations Engine Display Output -->
+                <div id="resultBox" class="hidden bg-amber-50 rounded-xl p-6 border border-amber-200 mt-6 animate-fade-in">
+                    <h3 class="font-royal text-lg font-bold text-amber-900 mb-3">Estimated Budget Breakdown</h3>
+                    <div class="space-y-2 text-sm text-slate-700">
+                        <div class="flex justify-between"><span>Accommodation & Stays:</span> <span id="stayCost" class="font-semibold">₹0</span></div>
+                        <div class="flex justify-between"><span>Food & Royal Dining:</span> <span id="foodCost" class="font-semibold">₹0</span></div>
+                        <div class="flex justify-between"><span>Transit & Local Transport:</span> <span id="transitCost" class="font-semibold">₹0</span></div>
+                        <div class="border-t border-amber-200 my-2 pt-2 flex justify-between text-base font-bold text-slate-900">
+                            <span>Grand Total Estimate:</span> <span id="grandTotal" class="text-amber-800">₹0</span>
+                        </div>
+                    </div>
+                    <p id="luxuryAlert" class="hidden text-xs text-amber-700 mt-4 italic">👑 Tip: This package includes top iconic properties like Rambagh Palace or Udaipur Taj Lake Palace with local premium chauffeured transfers!</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm border-t border-slate-800">
+        <p class="font-royal text-amber-400 font-semibold mb-2">Padharo Mhare Desh</p>
+        <p>&copy; 2026 Rajasthan Tourism Guide App. Designed beautifully for your upcoming royal journey.</p>
+    </footer>
+
+    <!-- Interactive Budget Engine Script Component -->
+    <script>
+        function calculateBudget() {
+            const style = document.getElementById('travelStyle').value;
+            const days = parseInt(document.getElementById('tripDays').value) || 0;
+            const people = parseInt(document.getElementById('travelers').value) || 0;
+
+            let ratePerDay = 6000;
+            if (style === 'backpacker') ratePerDay = 2500;
+            if (style === 'luxury') ratePerDay = 25000;
+
+            const baseTotal = ratePerDay * days * people;
+            
+            // Percentage breakdown
+            const stay = Math.round(baseTotal * 0.5);
+            const food = Math.round(baseTotal * 0.3);
+            const transit = Math.round(baseTotal * 0.2);
+
+            document.getElementById('stayCost').innerText = '₹' + stay.toLocaleString('en-IN');
+            document.getElementById('foodCost').innerText = '₹' + food.toLocaleString('en-IN');
+            document.getElementById('transitCost').innerText = '₹' + transit.toLocaleString('en-IN');
+            document.getElementById('grandTotal').innerText = '₹' + baseTotal.toLocaleString('en-IN');
+
+            // Show luxury alert element dynamically if criteria met
+            const luxuryAlert = document.getElementById('luxuryAlert');
+            if (style === 'luxury') {
+                luxuryAlert.classList.remove('hidden');
+            } else {
+                luxuryAlert.classList.add('hidden');
+            }
+
+            // Display Output Box Container
+            document.getElementById('resultBox').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
